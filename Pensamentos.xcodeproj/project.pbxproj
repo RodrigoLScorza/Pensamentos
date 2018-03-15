@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		AC0989942059DAB70003F242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0989932059DAB70003F242 /* AppDelegate.swift */; };
-		AC0989962059DAB70003F242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0989952059DAB70003F242 /* ViewController.swift */; };
+		AC0989962059DAB70003F242 /* QuotesViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0989952059DAB70003F242 /* QuotesViewControler.swift */; };
 		AC0989992059DAB70003F242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0989972059DAB70003F242 /* Main.storyboard */; };
 		AC09899B2059DAB70003F242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC09899A2059DAB70003F242 /* Assets.xcassets */; };
 		AC09899E2059DAB70003F242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC09899C2059DAB70003F242 /* LaunchScreen.storyboard */; };
+		AC0989A62059E2470003F242 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0989A52059E2470003F242 /* ConfigViewController.swift */; };
+		AC0989A82059E2590003F242 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0989A72059E2590003F242 /* SaveViewController.swift */; };
+		AC0989AA2059F5500003F242 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0989A92059F5500003F242 /* QuotesManager.swift */; };
+		AC0989AC2059F5A30003F242 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0989AB2059F5A30003F242 /* Quote.swift */; };
+		AC0989AE2059F6E70003F242 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = AC0989AD2059F6E70003F242 /* quotes.json */; };
+		AC0989B02059FCFB0003F242 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0989AF2059FCFB0003F242 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC0989902059DAB70003F242 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0989932059DAB70003F242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC0989952059DAB70003F242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC0989952059DAB70003F242 /* QuotesViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewControler.swift; sourceTree = "<group>"; };
 		AC0989982059DAB70003F242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC09899A2059DAB70003F242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC09899D2059DAB70003F242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC09899F2059DAB70003F242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0989A52059E2470003F242 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		AC0989A72059E2590003F242 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		AC0989A92059F5500003F242 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		AC0989AB2059F5A30003F242 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		AC0989AD2059F6E70003F242 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		AC0989AF2059FCFB0003F242 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +66,18 @@
 		AC0989922059DAB70003F242 /* Pensamentos */ = {
 			isa = PBXGroup;
 			children = (
+				AC0989AD2059F6E70003F242 /* quotes.json */,
 				AC0989932059DAB70003F242 /* AppDelegate.swift */,
-				AC0989952059DAB70003F242 /* ViewController.swift */,
+				AC0989952059DAB70003F242 /* QuotesViewControler.swift */,
 				AC0989972059DAB70003F242 /* Main.storyboard */,
 				AC09899A2059DAB70003F242 /* Assets.xcassets */,
 				AC09899C2059DAB70003F242 /* LaunchScreen.storyboard */,
 				AC09899F2059DAB70003F242 /* Info.plist */,
+				AC0989A52059E2470003F242 /* ConfigViewController.swift */,
+				AC0989A72059E2590003F242 /* SaveViewController.swift */,
+				AC0989A92059F5500003F242 /* QuotesManager.swift */,
+				AC0989AF2059FCFB0003F242 /* Configuration.swift */,
+				AC0989AB2059F5A30003F242 /* Quote.swift */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -123,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0989AE2059F6E70003F242 /* quotes.json in Resources */,
 				AC09899E2059DAB70003F242 /* LaunchScreen.storyboard in Resources */,
 				AC09899B2059DAB70003F242 /* Assets.xcassets in Resources */,
 				AC0989992059DAB70003F242 /* Main.storyboard in Resources */,
@@ -136,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0989962059DAB70003F242 /* ViewController.swift in Sources */,
+				AC0989AA2059F5500003F242 /* QuotesManager.swift in Sources */,
+				AC0989962059DAB70003F242 /* QuotesViewControler.swift in Sources */,
+				AC0989B02059FCFB0003F242 /* Configuration.swift in Sources */,
+				AC0989A82059E2590003F242 /* SaveViewController.swift in Sources */,
 				AC0989942059DAB70003F242 /* AppDelegate.swift in Sources */,
+				AC0989AC2059F5A30003F242 /* Quote.swift in Sources */,
+				AC0989A62059E2470003F242 /* ConfigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
